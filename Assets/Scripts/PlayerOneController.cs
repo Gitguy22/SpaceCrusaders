@@ -6,9 +6,9 @@ public class PlayerOneController : MonoBehaviour
 {
     private Rigidbody2D rb;
 
-    float maxVelocity = 3;
+    public float maxVelocity; //= 0.05f;
 
-    public float rotationSpeed = 3;
+    public float rotationSpeed; //= 0.05f;
 
     #region Monobehavior API
     
