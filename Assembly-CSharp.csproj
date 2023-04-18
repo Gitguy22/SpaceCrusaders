@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/PlayerOneController.cs" />
+     <Compile Include="Assets/Scripts/FlappySpace.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -625,6 +626,9 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/Users/game1/CaseOfSpace/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>/Users/game1/CaseOfSpace/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/game1/CaseOfSpace/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -636,9 +640,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/game1/CaseOfSpace/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>/Users/game1/CaseOfSpace/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
